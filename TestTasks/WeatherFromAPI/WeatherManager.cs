@@ -11,7 +11,7 @@ namespace TestTasks.WeatherFromAPI
 {
     public class WeatherManager
     {
-        private const string ApiKey = "12064f6fb8cc282107c9f10c4ae5e594";
+        private const string ApiKey = "...";
         private const string GeocodingUrl = "http://api.openweathermap.org/geo/1.0/direct?q={0}&limit=1&appid={1}";
         private const string ForecastUrl = "https://api.openweathermap.org/data/2.5/forecast?lat={0}&lon={1}&appid={2}&units=metric";
 
